@@ -728,7 +728,7 @@ fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.pop()     
 print(fruits)       # ['banana', 'orange', 'mango']
 
-fruits.remove(0)     
+fruits.remove(fruits[0])     
 print(fruits)       # ['orange', 'mango']    
 ```
 ### Removing item using del
